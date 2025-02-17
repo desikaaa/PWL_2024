@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/hello', [WelcomeController::class, 'hello']);
+Route::get('/', [WelcomeController::class, 'hello']);
