@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\PhotoController;
+use App\resources\views\hello;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resource('photos', PhotoController::class);
+Route::get('/greeting', function () {
+	return view('hello', ['name' => 'Desi Karmila]);
+});
