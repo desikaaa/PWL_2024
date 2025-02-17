@@ -6,11 +6,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    /**
-     * Handle the incoming request.
-     */
-    public function __invoke(Request $request)
+    public function __invoke()
     {
-        //
+        return 'Selamat Datang';
     }
 }
