@@ -1,7 +1,8 @@
 <?php
 
-use App\resources\views\hello;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WelcomeController;
+
 
 /*
 |--------------------------------------------------------------------------
